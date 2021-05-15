@@ -214,4 +214,32 @@ else if($type=='teacher_deletes')
        }
 
 
+
+/* ------------------------------------------------------------------------------------------------------+
+                          user       message
+-------------------------------------------------------------------------------------------------------*/
+
+   else if($type=='userMessage')
+   {
+
+     
+
+         $sql=" DELETE FROM user_message  WHERE id='$id' ";
+      if(mysqli_query($db,$sql))
+             {
+               $_SESSION['success']="User message has been deleted successfully!!";        
+                header('location:message.php');
+       
+             }
+       else
+          {
+              $_SESSION['error']='!Opps somthing wrong in deleting message';
+              header('location:message.php');
+          }
+
+   }
+
+
+
+
 ?>

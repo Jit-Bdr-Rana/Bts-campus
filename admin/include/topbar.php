@@ -1,3 +1,4 @@
+<?php include"middleware.php"; ?>
 <div class="container-fluid">
       <div class="row top-banner p-2">
         <div class="col-lg-2 col-md-2 col-12">

@@ -1,6 +1,7 @@
 
 <!DOCTYPE html><?php
 include "include/connection.php";
+include "include/extra.php";
 $index='set';
 
 session_start();
@@ -11,7 +12,7 @@ session_start();
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BTS</title>
+    <title>BUDHANILKANTHA TECHNICAL CAMPUS</title>
 
     <!-- css  -->
     <link rel="stylesheet" type="text/css" href="frontpage/css/bootstrap.min.css" />
@@ -64,10 +65,6 @@ session_start();
             </li>
             <?php 
  
-                      include("include/connection.php");
-                       
-                         
-                                              
                       $sql="select *from news_and_event  ORDER BY id DESC LIMIT 5";
                       $query=mysqli_query($db,$sql);
                       while($row=mysqli_fetch_array($query))
@@ -75,9 +72,19 @@ session_start();
               ?>
 
             <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fa fa-circle"></i><?php echo $row['post']; ?></a
-              >
+                     <div class="container">
+                <div class="row">
+                  <div class="col-md-1">
+                     <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="col-md-11">
+                    
+                        <?php echo link_clickable($row['description']); ?>
+                     </div>
+               
+                </div>
+             
+             </div>
             </li>
             <?php }?>
             <li class="nav-item"  style="text-align: center;">
@@ -106,9 +113,19 @@ session_start();
                         {
               ?>
             <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fa fa-circle"></i><?php echo $row['notice']; ?></a
-              >
+                   <div class="container">
+                <div class="row">
+                  <div class="col-md-1">
+                     <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="col-md-11">
+                    
+                        <?php echo link_clickable($row['notice']); ?>
+                     </div>
+               
+                </div>
+             
+             </div>
             </li>
                <?php }?>
             <li class="nav-item"  style="text-align: center;">

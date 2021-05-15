@@ -28,13 +28,13 @@
    	  {
    	  	$_SESSION['success']='Event and post has been successfully posted';
    	  	 	
-   	  	header('location:news and events_table.php');
+   	  	header('location:news-and-events-table.php');
    	 
    	  }
    	  else
    	   {
    	  	$_SESSION['error']='!Opps somthing wrong in posting event and news';
-   	    	  	header('location:news_&_event.php?type=insert');
+   	    	  	header('location:news-and-events-table.php');
    	 
 
    	  }
@@ -57,13 +57,13 @@
       {
         $_SESSION['success']='Event and post has been successfully updated';
           
-        header('location:news and events_table.php');
+        header('location:news-and-events-table.php');
      
       }
       else
        {
         $_SESSION['success']='!Opps somthing wrong in posting event and news';
-              header('location:news and events_table.php');
+              header('location:news-and-events-table.php');
      
 
       }

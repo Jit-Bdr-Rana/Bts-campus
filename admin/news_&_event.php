@@ -41,12 +41,6 @@ else
 </head>
 <body>
 </body>
-<?php 
-
-include('include/check_login.php');
-
-?>
-
 
 <!-- top banner -->
     
@@ -91,7 +85,7 @@ include('include/check_login.php');
               </div>
               <label for="vehicle1">DATE</label><br>
               <input type="date" name="date" style=" border-radius: 5px; background-color: #DEDBD5; border : 1px #DEDBD5; height: 40px; width: 250px;"value="<?php if(isset($edit)){ echo htmlentities($news_and_event['date']); } ?>" >
-             <textarea name="NewsAndEvent" placeholder="description">  <?php if(isset($edit)){ echo htmlentities($news_and_event['post']); } ?></textarea>
+             <textarea name="NewsAndEvent" placeholder="description">  <?php if(isset($edit)){ echo htmlentities($news_and_event['description']); } ?></textarea>
          
           
              
