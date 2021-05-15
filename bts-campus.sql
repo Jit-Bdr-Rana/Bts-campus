@@ -246,7 +246,7 @@ CREATE TABLE `teacher` (
 CREATE TABLE `user_message` (
   `id` int(100) NOT NULL,
   `name` varchar(25) NOT NULL,
-  `phone` int(10) NOT NULL,
+  `phone` varchar(20) NOT NULL,
   `email` varchar(25) NOT NULL,
   `message` varchar(1025) NOT NULL,
   `created_at` date DEFAULT NULL
