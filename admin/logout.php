@@ -6,10 +6,8 @@ session_start();
             unset($_SESSION['username']);
 			unset($_SESSION['admin_login']);
 			unset($_SESSION['admin_login_time']);
-		
-			header("location:index.php");
-
-  }
+		    header("location:index.php");
+		      }
            
 
 ?>

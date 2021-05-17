@@ -30,7 +30,7 @@
                             </div>
                           <?php } ?>
                             <div class="col-3">
-                              <a href="../Login/teacher_logout.php"> <button type="submit" class="btn btn-primary" style="background-color: #224a8f; border: none; float: left; border-radius: 20px;">LOGOUT</button></a>
+                              <a href="../login/teacher_logout.php"> <button type="submit" class="btn btn-primary" style="background-color: #224a8f; border: none; float: left; border-radius: 20px;">LOGOUT</button></a>
                             </div>
                           </div>
                            

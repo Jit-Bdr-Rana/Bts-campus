@@ -2,7 +2,7 @@
  if(!isset($_SESSION['teacher']))
 {
 
-    header("location:../Login/login.php?user=teacher");
+    header("location:../login/login.php?user=teacher");
   }
   else
   {
@@ -11,7 +11,7 @@
     
        $_SESSION['alert']=true;
        
-        header("location:../Login/teacher_logout.php");  
+        header("location:../login/teacher_logout.php");  
     }
   else {
       $_SESSION['login_time'] = time(); 

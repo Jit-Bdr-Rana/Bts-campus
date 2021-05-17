@@ -29,7 +29,7 @@ session_start();
     <div class="row p-0">
       <div class="col-lg-12">
         <div>
-          <img src="frontpage/photos/physicslab.jpg"  class="img-fluid" alt="Not Available!" />
+          <img src="frontpage/photos/campus7.jpg"  height="400" class="img-fluid" alt="Not Available!" />
              <div class="title"><h4>ABOUT US</h4></div>
         </div>
       </div>

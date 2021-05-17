@@ -32,15 +32,20 @@ session_start();
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000">
   <div class="carousel-inner">
     <div class="carousel-item active" >
-      <img class="d-block w-100" src="frontpage/photos/group.jpg" alt="First slide">
+      <img class="d-block w-100" src="frontpage/photos/campus2.jpg" height="700" width="100" alt="First slide">
     </div>
 
     <div class="carousel-item">
-      <img class="d-block w-100" src="frontpage/photos/sports.jpg" alt="Second slide">
+      <img class="d-block w-100" src="frontpage/photos/campus3.jpg" height="700" width="100" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="frontpage/photos/oeca1.jpg" alt="Third slide">
+      <img class="d-block w-100" src="frontpage/photos/campus4.jpg" height="700" width="100" alt="Third slide">
     </div>
+
+     <div class="carousel-item">
+      <img class="d-block w-100" src="frontpage/photos/campus5.jpg" height="700" width="100" alt="Third slide">
+    </div>
+
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -172,7 +177,7 @@ session_start();
        <div class="row p-0">
       <div class="col-lg-12">
         <div class="about-img">
-          <img src="frontpage/photos/oeca1.jpg" alt="Not Available!" />
+          <img src="frontpage/photos/campus6.jpg"  height="700" width="100" alt="Not Available!" />
         </div>
           <div class="title">
             <form class="form-inline about my-2 my-lg-0">

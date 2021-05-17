@@ -14,7 +14,7 @@
     
        $_SESSION['alert']=true;
        
-        header("location:Login/student_logout.php");  
+        header("location:login/student_logout.php");  
     }
   else {
       $_SESSION['login_time'] = time(); 
