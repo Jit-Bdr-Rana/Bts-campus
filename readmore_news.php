@@ -65,7 +65,7 @@ $start_from = ($page-1) * $limit;
             <div class="day ml-3"><span style="font-size:20px;margin-right: 10px; font-weight: bold; "><?php echo $x."."; ?></span><?php echo  date('j F, Y', strtotime($row['date']));  ?></div>
           </div>
         </div>
-        <div class="col-lg-10 col-md-2 col-sm-12 pt-3"><?php echo link_clickable($row['description']); ?></div>
+        <div class="col-lg-10 col-md-2 col-sm-12 pt-3">    <a href="detailViewOfNewsAnnouncementAndNotice.php?id=<?php echo $row['id']; ?>"><?php echo ($row['post']); ?></a></div>
       </div>
       <?php $x++; } ?>
     </div>

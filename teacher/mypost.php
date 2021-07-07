@@ -29,10 +29,7 @@ $mypost='set';
         color: white; 
         
     }
-    img{
-      height: 50px;
-      width: 50px;
-    }
+    
   </style>
 
 <!-- top banner -->

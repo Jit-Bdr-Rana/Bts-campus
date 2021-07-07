@@ -99,6 +99,7 @@ $x=(($page-1)*$limit)+1;
                                     <tr>
                                         <th>ID</th>
                                         <th>Post</th>
+                                        <th>image</th>
                                         <th>Date</th>
                                        
                                         <th>Action</th>
@@ -114,6 +115,11 @@ $x=(($page-1)*$limit)+1;
                                 <tr>
                                    <td><?php echo htmlentities($x); ?></td>
                                     <td><?php echo  htmlentities($event['post']);?></td>
+                                     <td>
+                                    <?php if($event['image']!=null && $event['image']!="") {?>
+                                        <img height="80" width="80" src="news_and_announcement_file/<?php echo htmlentities($event['image']); ?>">
+                                    <?php } ?>
+                                    </td>
                                    
                                     <td> <?php echo htmlentities($event['date']); ?> </td>
                                   

@@ -34,5 +34,21 @@ function link_clickable($text_main){
     return   implode(" ",$text_line);
   }
 
+function short_text($text,$length)
+{
+$string = strip_tags($text,$length);
+if (strlen($string) > $length) {
+
+    // truncate string
+    $stringCut = substr($string, 0, $length);
+    $endPoint = strrpos($stringCut, ' ');
+
+    //if the string doesn't contain any space then it will cut without word basis.
+    $string = $endPoint? substr($stringCut, 0, $endPoint) : substr($stringCut, 0);
+    $string .= '..';
+}
+return  $string;
+}
+
 
  ?>

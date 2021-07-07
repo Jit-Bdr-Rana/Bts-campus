@@ -19,7 +19,7 @@
           <ul class="navbar-nav mx-auto">
            
             <li class="nav-item center-menu">
-              <a class="nav-link <?php if(isset($index)) echo 'active'; ?> " href="index.php">CAMPUS </a>
+              <a class="nav-link <?php if(isset($index)) echo 'active'; ?> " href="index.php">HOME </a>
             </li>
            
             <li class="nav-item center-menu">

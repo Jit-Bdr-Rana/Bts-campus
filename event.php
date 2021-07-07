@@ -27,7 +27,7 @@ session_start();
 
 <div class="container-fluid">
 <div class="row" style="background-color: green; height: 40px; color: white;justify-content: center;">
-            <h4>SCHOOL EVENTS </h4>
+            <h4>CAMPUS EVENTS </h4>
           </div> 
           </div>  
            <div class="container-fluid" style="background-color: #d5d8de;">         

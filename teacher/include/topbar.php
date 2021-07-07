@@ -1,20 +1,24 @@
 <?php include"middleware.php"; ?>
 <div class="container-fluid">
       <div class="row top-banner p-2">
-        <div class="col-lg-2 col-md-2 col-12">
-           <div class="logo">
-                 <img src="../frontpage/images/logo.jpg" style="margin-top: 20px;" alt="Not Available!" />
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <div class="row">
+            <div class="col-lg-2 col-sm-4 col-md-4 col-4">
+              <div class="logo">
+                <img src="../frontpage/images/logo.png"  loading="lazy" style="margin-top: 20px;" alt="Not Available!" />
               </div>
-        </div>
-                <div class="col-lg-8 col-md-8 col-12">
-                   <div class="top-title">
-                <h1>BUDHANILKANTHA TECHNICAL CAMPUS</h1>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                <br/>
+              <div class="top-title">
+                <h4>BUDHANILKANTHA SECONDARY SCHOOL</h4>
               </div>
-
               <div class="top-subtitle">
-                <h5>A BETTER LEARNING FUTURE STARTS</h5>
-              </div>  
-                </div>
+                <h5><i>A Better Learning Future Starts</i></h5>
+              </div>
+            </div>
+          </div>
+        </div>
                         <div class="col-lg-2 col-md-2 col-12">
 
                         

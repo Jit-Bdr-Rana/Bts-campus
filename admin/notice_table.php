@@ -118,6 +118,7 @@ return  $string;
                                     <tr>
                                         <TH>SN</TH>
                                         <th>NOTICE</th>
+                                        <th>Image</th>
                                         <th>DATE</th>
                                         <th>ACTION</th>
                                     </tr>
@@ -131,7 +132,12 @@ return  $string;
                                  ?>
                                 <tr>
                                    <td><?php echo htmlentities($x); ?></td>
-                                    <td><?php echo  short_notice($notice['notice']);?> </td>
+                                    <td><?php echo  short_notice($notice['title']);?> </td>
+                                      <td>
+                                    <?php if($notice['image']!=null && $notice['image']!="") {?>
+                                        <img height="80" width="80" src="notice_file/<?php echo htmlentities($notice['image']); ?>">
+                                    <?php } ?>
+                                    </td>
                                    
                                     <td><?php echo htmlentities($notice['created_at']); ?></td>
                                    

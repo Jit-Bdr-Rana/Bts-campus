@@ -2,6 +2,11 @@
   padding: 0;
   margin: 0;
 }
+    ul li {
+    word-break: break-all;
+}
+
+
 
 body {
   overflow-x: hidden;

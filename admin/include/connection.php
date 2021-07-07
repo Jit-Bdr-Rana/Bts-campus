@@ -2,7 +2,7 @@
   $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "bts-campus";
+$dbname = "bnkswgip_campus";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

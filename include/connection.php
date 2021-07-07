@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "bts-campus";
+$dbname = "bnkswgip_campus";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -15,7 +15,7 @@ class database{
     public  $servername="localhost";
     public $username="root";
     public $password="";
-    public  $database="bts-campus";	
+    public  $database="bnkswgip_campus";	
 	public function  __construct(){
 		$this->con = new mysqli($this->servername, $this->username,$this->password,$this->database);
 		    if(mysqli_connect_error()) {

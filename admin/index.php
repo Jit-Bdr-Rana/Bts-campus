@@ -10,9 +10,8 @@
 <body>
 	<?php
 	session_start();     
-	
-
 	include('include/connection.php');
+	
 	if(isset($_SESSION['admin_login']))
 	{
 		header("location:landing.php");
@@ -24,6 +23,7 @@
 		$query="select * from admin_user where username='$name'and password='$password' ";
 		$data=mysqli_query($db,$query);
 		$total=mysqli_num_rows($data);
+		console.log($total);
 
 		if($total==1)
 		{

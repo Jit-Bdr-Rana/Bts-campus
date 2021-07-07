@@ -109,7 +109,7 @@ $results='set';
                     <td style="border: 1px solid black;">27</td>
                     <td style="border: 1px solid black;">34</td>
                     <td style="border: 1px solid black;">BBS</td>
-                    <td style="border: 1px solid black;">FIRST</td>
+                    <td style="border: 1px solid black;">1</td>
                     <td style="border: 1px solid black;">1</td>
                   </tr>
                     <tr>
@@ -120,12 +120,12 @@ $results='set';
                     <td style="border: 1px solid black;">27</td>
                     <td style="border: 1px solid black;">34</td>
                     <td style="border: 1px solid black;">BBS</td>
-                    <td style="border: 1px solid black;">FIRST</td>
+                    <td style="border: 1px solid black;">1</td>
                     <td style="border: 1px solid black;">1</td>
                   </tr>
                 </table>  
                 <p><b>Note: file must be in CSV format.</b></p>
-                 <p><b>And file must not contain headings <br/> ( Unique code, Subject, Fullmarks, Passmarks, Obtained Marks,Fculty,Year, Term)</b></p>
+                 <p><b>And file must not contain headings <br/> ( Unique code, Subject, Fullmarks, Passmarks, Obtained Marks,Faculty,Year, Term)</b></p>
         </div>    
 
     </div>
